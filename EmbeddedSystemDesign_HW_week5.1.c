@@ -4,7 +4,7 @@ Problem: Make a function that calculates series capacitor circuit or parallel ca
 For example:
 
 Test								| Result
-----------------------------------------------------------------------------
+------------------------------------------------------------------------
 float C1=10E-6;							| 2.000
 float C2=10E-6;							|
 float C3=10E-6;							|
