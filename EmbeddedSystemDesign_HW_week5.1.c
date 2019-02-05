@@ -3,18 +3,18 @@ Problem: Make a function that calculates series capacitor circuit or parallel ca
 (unit F) C1,C2,C2,Cn and circuit type "serial" or "parallel" and capacitor count are passed as a parameters. Unit for result is µF.
 For example:
 
-Test																| Result
+Test								| Result
 ----------------------------------------------------------------------------
-float C1=10E-6;														| 2.000
-float C2=10E-6;														|
-float C3=10E-6;														|
-float C4=10E-6;														|
-float C5=10E-6;														|
-																	|
-float capacitor_values[]={C1,C2,C3,C4,C5};							|
-int len = sizeof(capacitor_values)/sizeof(capacitor_values[0]);		|
-int circuit_type=2; //1=parallel circuit, 2=serial circuit 			|
-printf("%.3f",circuit(capacitor_values,circuit_type,len));			|
+float C1=10E-6;							| 2.000
+float C2=10E-6;							|
+float C3=10E-6;							|
+float C4=10E-6;							|
+float C5=10E-6;							|
+								|									|
+float capacitor_values[]={C1,C2,C3,C4,C5};			|
+int len = sizeof(capacitor_values)/sizeof(capacitor_values[0]);	|
+int circuit_type=2; //1=parallel circuit, 2=serial circuit 	|
+printf("%.3f",circuit(capacitor_values,circuit_type,len)); 	|
 */
 
 #include <stdio.h>
