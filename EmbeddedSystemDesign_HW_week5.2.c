@@ -3,12 +3,12 @@ Problem: Make a function that calculates the factorial of given integer number a
 parameter. Range for value for n = 0 - 12.
 For example:
 
-Test						| Result
----------------------------------------
-int n=12;					| 479001600
-printf("%ld",factorial(n)); |
----------------------------------------
-int n=0;					| 1
+Test				| Result
+-------------------------------------------
+int n=12;			| 479001600
+printf("%ld",factorial(n)); 	|
+-------------------------------------------
+int n=0;			| 1
 printf("%ld",factorial(n));	|
 */
 
