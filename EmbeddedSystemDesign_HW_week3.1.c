@@ -2,12 +2,12 @@
 Make a function that calculates and prints equation y=x^2 by using four x values. For the function x values are passed as a parameter.
 For example:
 
-Test						  |	Result
---------------------------------------
-y_values(1.5, 3.4, 4.8, 5.5)  | 2.25
-							  | 11.56
-							  | 23.04
-							  | 30.25
+Test				| Result
+----------------------------------------
+y_values(1.5, 3.4, 4.8, 5.5)	| 2.25
+				| 11.56
+				| 23.04
+				| 30.25
 */
 
 #include <stdio.h>
