@@ -4,12 +4,12 @@ Make a function that converts voltage U (V) to unit (dBμV). A voltage U (V) is 
 Where U is voltage and unit V.
 For example:
 
-Test						  	  				| Result
+Test						| Result
 -------------------------------------------------------------
-double voltage=4.85;							| 133.71 dBuV
+double voltage=4.85;				| 133.71 dBuV
 printf("%.2f dBuV",voltage_to_dBuV(voltage));	|
 -------------------------------------------------------------
-double voltage=0.1E-6;							| -20.00 dBuV
+double voltage=0.1E-6;				| -20.00 dBuV
 printf("%.2f dBuV",voltage_to_dBuV(voltage));	|
 */
 
