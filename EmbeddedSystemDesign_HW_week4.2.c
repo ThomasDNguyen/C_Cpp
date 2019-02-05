@@ -3,12 +3,12 @@ Make a function that calculates the quadratic equation roots and prints the resu
 the function. If complex roots (4*a*c)>=b^2 then system will inform "error complex roots".
 For example:
 
-Test						  	| Result
+Test				| Result
 -----------------------------------------------------
 quadratic_equation(15,15,5);	| error complex roots
 -----------------------------------------------------
-quadratic_equation(1,15,5);		| x1=-0.34              
-								| x2=-14.66
+quadratic_equation(1,15,5);	| x1=-0.34              
+				| x2=-14.66
 */
 
 #include <stdio.h>
