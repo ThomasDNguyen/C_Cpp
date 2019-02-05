@@ -10,7 +10,7 @@ float C2=10E-6;							|
 float C3=10E-6;							|
 float C4=10E-6;							|
 float C5=10E-6;							|
-								|									|
+								|
 float capacitor_values[]={C1,C2,C3,C4,C5};			|
 int len = sizeof(capacitor_values)/sizeof(capacitor_values[0]);	|
 int circuit_type=2; //1=parallel circuit, 2=serial circuit 	|
