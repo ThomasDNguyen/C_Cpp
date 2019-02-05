@@ -3,25 +3,25 @@ Make a function that converts binary number to decimal number and returns the re
 a parameter to the function.
 For example:
 
-Test												| Result
--------------------------------------------------------------
-char binary_number[]="1100";						| 12
-int length=0;										|
-													|
-while(binary_number[length]!='\0')					|
-	{												|
-		length++;									|
-	}												|
-printf("%ld\n",bintodec(binary_number, length));	|
--------------------------------------------------------------
-char binary_number[]="11111111";					| 255
-int length=0;										|
-													|
-while(binary_number[length]!='\0')					|
-	{												|
-		length++;									|
-	}												|
-printf("%ld\n",bintodec(binary_number, length));	|
+Test						  | Result
+----------------------------------------------------------
+char binary_number[]="1100";			  | 12
+int length=0;					  |
+						  |
+while(binary_number[length]!='\0')		  |
+	{					  |
+		length++;			  |
+	}					  |
+printf("%ld\n",bintodec(binary_number, length));  |
+----------------------------------------------------------
+char binary_number[]="11111111";		  | 255
+int length=0;					  |
+						  |
+while(binary_number[length]!='\0')		  |
+	{					  |
+		length++;			  |
+	}					  |
+printf("%ld\n",bintodec(binary_number, length));  |
 */
 
 #include <stdio.h>
