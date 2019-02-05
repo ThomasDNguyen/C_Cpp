@@ -3,9 +3,9 @@ Make a function that converts thousandth of an inch (thou) to millimeters (mm) a
 of thousandth of an inch (1 thou - 100 thou) is passed as a parameter to the function. thou = mils.
 For example:
 
-Test						  	  |	Result
+Test				  | Result
 ------------------------------------------
-unsigned int thou=100;		  	  | 2.5400
+unsigned int thou=100;		  | 2.5400
 printf("%.4f",thou_to_mm(thou));  |
 */
 
