@@ -2,39 +2,39 @@
 Make a function that calculates and prints Class C subnet. Subnet can be checked with this calculator: http://www.subnet-calculator.com/
 For example:
 
-Test					    | Result
+Test				| Result
+---------------------------------------------------------------------------------------
+int class_C=128;		| Subnet mask 255.255.255.128
+calculate_subnets(class_C); 	| Network ID range 0 - 127	
+				| Network ID range 128 - 255
+				| The number of subnets: 2
+				| IP addresses are divisible by number: 128
+				| The number of useable IP addresses in one subnet: 126
+				| The Total number of IP addresses: 252
+---------------------------------------------------------------------------------------
+int class_C=192;		| Subnet mask 255.255.255.192
+calculate_subnets(class_C); 	| Network ID range 0 - 63
+				| Network ID range 64 - 127
+				| Network ID range 128 - 191
+				| Network ID range 192 - 255
+				| The number of subnets: 4
+				| IP addresses are divisible by number: 64
+				| The number of useable IP addresses in one subnet: 62
+				| The Total number of IP addresses: 248
 -----------------------------------------------------------------------------------
-int class_C=128;			| Subnet mask 255.255.255.128
-calculate_subnets(class_C); | Network ID range 0 - 127
-							| Network ID range 128 - 255
-							| The number of subnets: 2
-							| IP addresses are divisible by number: 128
-							| The number of useable IP addresses in one subnet: 126
-							| The Total number of IP addresses: 252
------------------------------------------------------------------------------------
-int class_C=192;			| Subnet mask 255.255.255.192
-calculate_subnets(class_C); | Network ID range 0 - 63
-							| Network ID range 64 - 127
-							| Network ID range 128 - 191
-							| Network ID range 192 - 255
-							| The number of subnets: 4
-							| IP addresses are divisible by number: 64
-							| The number of useable IP addresses in one subnet: 62
-							| The Total number of IP addresses: 248
------------------------------------------------------------------------------------
-int class_C=224;			| Subnet mask 255.255.255.224
-calculate_subnets(class_C); | Network ID range 0 - 31
-							| Network ID range 32 - 63
-							| Network ID range 64 - 95
-							| Network ID range 96 - 127
-							| Network ID range 128 - 159
-							| Network ID range 160 - 191
-							| Network ID range 192 - 223
-							| Network ID range 224 - 255
-							| The number of subnets: 8
-							| IP addresses are divisible by number: 32
-							| The number of useable IP addresses in one subnet: 30
-							| The Total number of IP addresses: 240
+int class_C=224;		| Subnet mask 255.255.255.224
+calculate_subnets(class_C); 	| Network ID range 0 - 31
+				| Network ID range 32 - 63
+				| Network ID range 64 - 95
+				| Network ID range 96 - 127
+				| Network ID range 128 - 159
+				| Network ID range 160 - 191
+				| Network ID range 192 - 223
+				| Network ID range 224 - 255
+				| The number of subnets: 8
+				| IP addresses are divisible by number: 32
+				| The number of useable IP addresses in one subnet: 30
+				| The Total number of IP addresses: 240
 */
 
 #include <stdio.h> 
