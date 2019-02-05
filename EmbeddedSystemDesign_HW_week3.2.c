@@ -2,18 +2,18 @@
 Make a function that calculates and prints the 2^x where x values are 1-50. For the function x is passed as a parameter.
 For example:
 
-Test						                      |	Result
+Test						  | Result
 -------------------------------------------------------------
 int calculate_power_until=10; //this can be 1-50  | 2^1=2
-my_power(calculate_power_until); 				  | 2^2=4
-							  					  | 2^3=8
-							 					  | 2^4=16
-							 					  | 2^5=32
-							 					  | 2^6=64
-							 					  | 2^7=128
-							 					  | 2^8=256
-							 					  | 2^9=512
-												  | 2^10=1024
+my_power(calculate_power_until); 		  | 2^2=4
+						  | 2^3=8
+						  | 2^4=16
+						  | 2^5=32
+						  | 2^6=64
+						  | 2^7=128
+						  | 2^8=256
+						  | 2^9=512
+						  | 2^10=1024
 */
 
 #include <stdio.h>
