@@ -7,15 +7,15 @@ Make a function that turns the string backwards. The address of the first elemen
 parameter to the function. Length of the string can be between 2-1000.
 For example:
 
-Test						  	  |	Result
+Test				| Result
 ---------------------------------------------
-char text[]={"test text"};        | txet tset
-int len=strlen(text);			  |
-reverse_order(text,len);  		  |
-for(int k=0;k<len;k++) 			  |
-    {							  |
-     printf("%c",text[k]);		  |
-    }							  |
+char text[]={"test text"};      | txet tset
+int len=strlen(text);		|
+reverse_order(text,len);  	|
+for(int k=0;k<len;k++) 		|
+    {				|
+    	printf("%c",text[k]);	|
+    }				|
 */
 
 #include <stdio.h>
