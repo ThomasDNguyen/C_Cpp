@@ -2,7 +2,7 @@
 Problem: <Problem here>
 For example:
 
-Test				| Result
+Test				        | Result
 ------------------------------------------------
 					|
 					|
