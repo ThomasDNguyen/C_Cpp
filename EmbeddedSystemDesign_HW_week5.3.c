@@ -3,9 +3,9 @@ Problem: Make a function that calculates and returns the surface area of a spher
 to the function. Use pi value 3.14159265358979323846.
 For example:
 
-Test									| Result
+Test					| Result
 ------------------------------------------------
-double radius=4.85;						| 295.59
+double radius=4.85;			| 295.59
 printf("%.2f",area_of_sphere(radius));	| 
 */
 
